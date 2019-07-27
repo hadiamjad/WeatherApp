@@ -1,0 +1,223 @@
+
+@import url(https://fonts.googleapis.com/css?family=Vibur);
+@impoort url(https://fonts.googleapis.com/css?family=Lobster);
+*{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  font-family:arial;
+}
+body{background:#FF9000;}
+
+@media only screen and (max-width: 1500px) and (max-height: 1750px) { 
+h1{
+  color:#654321;
+  text-align:center;
+  font-family: 'Vibur', cursive;
+  font-size: 50px;
+}
+
+h2{
+  color:#654321;
+  text-align:center;
+  font-family: 'Vibur', cursive;
+  font-size: 30px;
+}
+
+p{
+  color: #808000;
+  text-align: relative;
+  font-family: 'Lobster';
+  font-size: 20px;
+  border: 1px solid #808000;
+  padding-left: 5%;
+}
+img{
+  border: 1px solid #808000;
+  margin-left: 35%;
+}
+
+.login-form{
+  width:350px;
+  padding:40px 30px;
+  background:#eee;
+  @include border-radius(4px);
+  margin:left;
+  position: absolute;
+  left: 15%;
+  right: 0;
+  top:30%;
+  @include translateY(-50%);
+}
+.form-group{
+  position: relative;
+  margin-bottom:15px;
+}
+.form-control{
+  width:100%;
+  height:50px;
+  border:none;
+  padding:5px 7px 5px 15px;
+  background:#fff;
+  color:#666;
+  border:2px solid #ddd;
+  @include border-radius(4px);
+    &:focus, &:focus + .fa{
+      border-color:#10CE88;
+      color:#10CE88;
+    }
+}
+.form-group .fa{
+  position: absolute;
+  right:15px;
+  top:17px;
+  color:#999;
+}
+
+.log-btn{
+  background:#0AC986;
+  dispaly:inline-block;
+  width:100%;
+  font-size:16px;
+  height:50px;
+  color:#fff;
+  text-decoration:none;
+  border:none;
+  @include border-radius(4px);
+}
+
+.link{
+  text-decoration:none;
+  color:#C6C6C6;
+  float:right;
+  font-size:12px;
+  margin-bottom:15px;
+  &:hover{
+    text-decoration: underline;
+    color:#8C918F;
+  }
+}
+
+.output-form{
+  width:400px;
+  height: 450px;
+  padding:30px 20px;
+  background: #eee;
+  @include border-radius(40px);
+  margin: left;
+  position: absolute;
+  left: 50%;
+  right: 0;
+  top:25%;
+  @include translateY(+50%);
+}
+
+}
+
+
+@media only screen and (max-width: 1074px) and (max-height: 1370px) { 
+h1{
+  color:#654321;
+  text-align:center;
+  font-family: 'Vibur', cursive;
+  font-size: 50px;
+}
+
+h2{
+  color:#654321;
+  text-align:center;
+  font-family: 'Vibur', cursive;
+  font-size: 30px;
+}
+
+p{
+  color: #808000;
+  text-align: relative;
+  font-family: 'Lobster';
+  font-size: 20px;
+  border: 1px solid #808000;
+  padding-left: 5%;
+}
+img{
+  border: 1px solid #808000;
+  margin-left: 35%;
+}
+
+.login-form{
+  width:350px;
+  padding:40px 30px;
+  background:#eee;
+  @include border-radius(4px);
+  margin:0 12px 16px 70px;
+  position: absolute;
+  left: 15%;
+  right: 0;
+  bottom:70%;
+  @include translateY(-50%);
+}
+.form-group{
+  position: relative;
+  margin-bottom:15px;
+}
+.form-control{
+  width:100%;
+  height:50px;
+  border:none;
+  padding:5px 7px 5px 15px;
+  background:#fff;
+  color:#666;
+  border:2px solid #ddd;
+  @include border-radius(4px);
+    &:focus, &:focus + .fa{
+      border-color:#10CE88;
+      color:#10CE88;
+    }
+}
+.form-group .fa{
+  position: absolute;
+  right:15px;
+  top:17px;
+  color:#999;
+}
+
+.log-btn{
+  background:#0AC986;
+  dispaly:inline-block;
+  width:100%;
+  font-size:16px;
+  height:50px;
+  color:#fff;
+  text-decoration:none;
+  border:none;
+  @include border-radius(4px);
+}
+
+.link{
+  text-decoration:none;
+  color:#C6C6C6;
+  float:right;
+  font-size:12px;
+  margin-bottom:15px;
+  &:hover{
+    text-decoration: underline;
+    color:#8C918F;
+  }
+}
+
+.output-form{
+  width:400px;
+  height: 450px;
+  padding:30px 20px;
+  background: #eee;
+  @include border-radius(40px);
+  margin: 0px 12px 80px 18px;
+  position: absolute;
+  left: 50%;
+  right: 0;
+  bottom:45%;
+  @include translateY(+50%);
+}
+
+}
+
+
